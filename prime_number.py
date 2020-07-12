@@ -5,7 +5,7 @@ try:
         if i != 1 and remainder == 0:
             print(f"{number_given} is NOT a prime number")
             break
-        if i == (number_given - 1) and remainder != 0:
+        elif i == (number_given - 1) and remainder != 0 or number_given == 2:
             print(f"{number_given} is a prime number")
 except:
     print("Please enter a valid integer number")
