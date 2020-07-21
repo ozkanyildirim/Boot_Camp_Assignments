@@ -1,6 +1,6 @@
 def primer(b = 1):
     """
-    Returns all integer values within two numbers. When it is not stated gives values from 1.
+    Returns all integer values between two numbers. When it is not stated gives values from 1.
     """
     try:
         n = int(input(f"Enter a value (n) to display prime numbers between {b} and 'n': "))
